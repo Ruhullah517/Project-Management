@@ -1,0 +1,83 @@
+#dots {
+    max-width: 1rem
+}
+
+#dots:hover {
+    background: aliceblue;
+}
+
+.projectCard {
+    /* border: 1px solid red; */
+    width: 260px;
+    position: relative;
+    border-radius: 10px;
+    background: white;
+    margin-top: 10px;
+    box-shadow: 1px 1.5px .5px 0.5px darkgray;
+
+}
+
+.projectCardTop {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    color: #c8c8c9;
+    padding: 5px;
+}
+
+.projectCardMiddle>* {
+    margin-top: 7px;
+}
+
+
+.projectCardMiddle {
+    padding: 12px;
+
+}
+
+.projectProgress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-loader {
+    left: 49%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 232px;
+    background: rgba(236, 236, 238, 0.253);
+    height: 10px;
+    border-radius: 7px;
+}
+
+.progress {
+    width: 100px;
+    height: 10px;
+    border-radius: 7px;
+    background: rgb(31, 81, 255);
+    transition: 0.5s;
+}
+
+.projectCard hr {
+    width: 88%;
+    position: relative;
+    left: 14px;
+}
+
+.projectCardEnd {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+}
+
+
+
+.projectDeadline {
+    background-color: aquamarine;
+    border-radius: 31px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+}
